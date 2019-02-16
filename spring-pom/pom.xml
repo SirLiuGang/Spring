@@ -40,4 +40,8 @@
         </plugins>
     </build>
 
+    <modules>
+        <module>../spring-threadpool</module>
+    </modules>
+
 </project>
