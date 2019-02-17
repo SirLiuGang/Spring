@@ -69,11 +69,8 @@ class threadExtend extends Thread {
 class SomeCallable<Integer> implements Callable<Integer> {
     private Integer result;
 
-    public SomeCallable() {
-    }
-
     // 通过构造函数将参数注入
-    public SomeCallable(Integer result) {
+    SomeCallable(Integer result) {
         this.result = result;
     }
 
