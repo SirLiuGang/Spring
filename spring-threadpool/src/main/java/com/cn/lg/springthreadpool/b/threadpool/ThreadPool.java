@@ -51,6 +51,14 @@ public class ThreadPool {
 //        shutdownNow()调用后，试图停止当前正在执行的 task，并返回尚未执行的 task 的 list
     }
 
+    private static void submitAndexecute() {
+        // Runnable任务没有返回值，而Callable任务有返回值
+        // execute和submit区别
+        // 1.接收的参数不一样
+        // 2.submit有返回值，而execute没有
+        // 3.submit方便Exception处理
+    }
+
     /**
      * 1.newCachedThreadPool：创建一个可缓存线程池，如果线程池长度超过处理需要，可灵活回收空闲线程，若无可回收，则新建线程。
      *      线程池为无限大，当执行第二个任务时第一个任务已经完成，会复用执行第一个任务的线程，而不用每次新建线程。
