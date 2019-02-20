@@ -57,9 +57,9 @@ public class ThreadPoolManage {
 
     /**
      * 带返回结果的批量任务运行（通过CompletionService管理）
-     * CompletionService将Executor（线程池）和BlockingQueue（堵塞队列）结合在一起，同一时候使用Callable作为任务的基本单元，整个过程就是生产者不断把Callable任务放入堵塞队列，Executor作为消费者不断把任务取出来运行，并返回结果；
+     * CompletionService将Executor（线程池）和BlockingQueue（堵塞队列）结合在一起，统一使用Callable作为任务的基本单元，整个过程就是生产者不断把Callable任务放入堵塞队列，Executor作为消费者不断把任务取出来运行，并返回结果；
      *  优势：
-     *      a、堵塞队列防止了内存中排队等待的任务过多，造成内存溢出（毕竟一般生产者速度比較快，比方爬虫准备好网址和规则，就去运行了，运行起来（消费者）还是比較慢的）
+     *      a、堵塞队列防止了内存中排队等待的任务过多，造成内存溢出（毕竟一般生产者速度比較快，比方爬虫准备好网址和规则，就去运行了，运行起来（消费者）还是比较慢的）
      *      b、CompletionService能够实现，哪个任务先运行完毕就返回，而不是按顺序返回，这样能够极大的提升效率；
      */
     private static void poolManage() {
