@@ -2,42 +2,29 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+
+    <!-- 继承自己的项目 -->
     <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.1.3.RELEASE</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <groupId>com.cn.lg</groupId>
+        <artifactId>spring-pom</artifactId>
+        <version>0.0.1</version>
+        <!-- relativePath给出父项目相对于子项目的路径，这样在构件子项目时首先从该相对路径查找父项目，如果没有才会从本地库或进而远程库中查找父项目。 -->
+        <relativePath>../spring-pom</relativePath>
     </parent>
-    <groupId>com.cn.lg</groupId>
+
+    <!-- 在子项目中，能够继承父项目的如下配置： -->
+    <!-- dependencies -->
+    <!-- developers -->
+    <!-- contributors -->
+    <!-- plugin lists -->
+    <!-- reports lists -->
+    <!-- plugin executions with matching ids -->
+    <!-- plugin configuration -->
+
+    <groupId>com.cn.lg.spring</groupId>
     <artifactId>spring-threadpool</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
     <name>spring-threadpool</name>
     <description>Several ways to implement thread pools</description>
-
-    <properties>
-        <java.version>1.8</java.version>
-    </properties>
-
-    <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
-        </dependency>
-    </dependencies>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
 
 </project>
