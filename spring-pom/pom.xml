@@ -58,6 +58,8 @@
     <!-- 子模块 -->
     <modules>
         <module>../spring-threadpool</module>
+        <module>../spring-annotation</module>
+        <module>../spring-test</module>
     </modules>
 
 </project>
