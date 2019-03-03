@@ -1,6 +1,7 @@
 package com.cn.lg.test.entity;
 
 import java.io.Serializable;
+import java.util.Objects;
 
 /**
  * 用户实体类
@@ -47,6 +48,21 @@ public class User implements Serializable {
 
     public void setSex(String sex) {
         this.sex = sex;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        User user = (User) o;
+        return Objects.equals(id, user.id) &&
+                Objects.equals(name, user.name) &&
+                Objects.equals(sex, user.sex);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, name, sex);
     }
 
     @Override
