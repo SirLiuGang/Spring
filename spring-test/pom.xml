@@ -16,5 +16,28 @@
     <name>spring-test</name>
     <description>Several commonly used test methods for spring projects</description>
 
+    <packaging>war</packaging>
+
+    <properties>
+        <powermock.version>2.0.0</powermock.version>
+    </properties>
+
+    <dependencies>
+        <!-- powermock 的依赖 -->
+        <dependency>
+            <groupId>org.powermock</groupId>
+            <artifactId>powermock-module-junit4</artifactId>
+            <version>${powermock.version}</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.powermock</groupId>
+            <artifactId>powermock-api-mockito2</artifactId>
+            <version>${powermock.version}</version>
+            <scope>test</scope>
+        </dependency>
+
+    </dependencies>
 
 </project>
