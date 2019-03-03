@@ -38,6 +38,16 @@
         </dependency>
 
         <dependency>
+            <!-- spring-boot-start-web ： MVC，AOP的依赖包。。。 -->
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+            <!--
+                <version></version>
+                由于我们在上边制定了parent(spring boot)，所以这里不需要版本
+             -->
+        </dependency>
+
+        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <version>2.1.2.RELEASE</version>    <!-- 锁定版本，防止版本升级后产生版本冲突 -->
