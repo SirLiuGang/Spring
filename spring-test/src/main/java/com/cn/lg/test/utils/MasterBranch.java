@@ -36,5 +36,7 @@ public class MasterBranch {
     // 准备合并主分支代码
 
     // 合并代码，提交
+    
+    // 远程修改，供本地merge
 
 }
