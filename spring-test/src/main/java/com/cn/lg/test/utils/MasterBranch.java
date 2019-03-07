@@ -22,5 +22,7 @@ public class MasterBranch {
     // 本地主分支提交
     
     // 远程git修改文件
+    
+    // 远程继续修改git文件
 
 }
