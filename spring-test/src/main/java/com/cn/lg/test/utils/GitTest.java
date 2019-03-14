@@ -7,4 +7,6 @@ package com.cn.lg.test.utils;
  */
 public class GitTest {
     // 执行commit操作
+
+    // 修改本地文件
 }
