@@ -2,6 +2,7 @@ package com.cn.lg.web.controller;
 
 import com.cn.lg.web.dto.ResponseStatus;
 import org.springframework.web.bind.annotation.ExceptionHandler;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 /**
  * @Auther: 刘钢
@@ -11,6 +12,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 public class BaseController {
 
     @ExceptionHandler
+    @ResponseBody
     public ResponseStatus ExceptionHandler(Exception e) {
         String msg;
         if(e instanceof NullPointerException) {
