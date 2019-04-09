@@ -11,6 +11,11 @@ public class SpringTestApplicationTests {
 
     @Test
     public void contextLoads() {
+        // 本地用来做测试
     }
 
+    @Test
+    public void test() {
+        System.out.println("111");
+    }
 }
