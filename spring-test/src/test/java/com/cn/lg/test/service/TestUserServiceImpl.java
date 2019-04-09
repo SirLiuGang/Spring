@@ -50,4 +50,9 @@ public class TestUserServiceImpl {
         // 看调用Controller层的接口后返回值和定义的是否是同一个对象
         assertEquals(user, resutnUser);
     }
+
+    @Test
+    public void test1() {
+        // 本地修改为提交
+    }
 }
