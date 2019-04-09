@@ -6,4 +6,9 @@ package com.cn.lg.test;
  * @Description:
  */
 public class Test {
+
+    @org.junit.Test
+    public void test() {
+        // 本地
+    }
 }
