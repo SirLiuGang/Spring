@@ -12,7 +12,7 @@ public class SpringTestApplicationTests {
     @Test
     public void contextLoads() {
         // 本地再一次用来做测试
-// 远程用来做测试
+// 远程再一次用来做测试1
     }
 
     @Test
