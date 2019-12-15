@@ -8,7 +8,7 @@ import com.cn.lg.sdk.LGValidateUtils;
 import java.util.List;
 
 /**
- * @Auther: 刘钢
+ * @author: 刘钢
  * @Date: 2019/3/4 23:40
  * @Description:
  */

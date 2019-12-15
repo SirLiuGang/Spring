@@ -20,7 +20,7 @@ import org.junit.Test;
 
 
 /**
- * @Auther: 刘钢
+ * @author: 刘钢
  * @Date: 2019/3/30 22:33
  * @Description:
  */

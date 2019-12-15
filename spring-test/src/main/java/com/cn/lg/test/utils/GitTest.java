@@ -1,7 +1,7 @@
 package com.cn.lg.test.utils;
 
 /**
- * @Auther: 刘钢
+ * @author: 刘钢
  * @Date: 2019/3/14 23:35
  * @Description:
  */

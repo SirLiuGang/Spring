@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 /**
- * @Auther: 刘钢
+ * @author: 刘钢
  * @Date: 2019/3/24 23:43
  * @Description:
  */

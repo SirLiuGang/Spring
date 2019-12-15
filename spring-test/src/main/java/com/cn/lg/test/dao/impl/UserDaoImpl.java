@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 
 /**
  * 获取用户信息 Dao层
- * @Auther: 刘钢
+ * @author: 刘钢
  * @Date: 2019/3/3 17:45
  * @Description:
  */

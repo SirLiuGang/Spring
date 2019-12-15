@@ -2,7 +2,7 @@ package com.cn.lg.annotation;
 
 import org.springframework.transaction.annotation.Transactional;
 /**
- * @Auther: 刘钢
+ * @author: 刘钢
  * @Date: 2019/3/2 20:55
  * @Description:
  */

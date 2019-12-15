@@ -9,7 +9,7 @@ import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @Auther: 刘钢
+ * @author: 刘钢
  * @Date: 2019/2/17 15:21
  * @Description: 线程池的几种实现方式
  */

@@ -10,7 +10,7 @@ import java.util.List;
 
 /**
  * 利用反射完成对实体类或DTO的测试
- * @Auther: 刘钢
+ * @author: 刘钢
  * @Date: 2019/3/4 22:36
  * @Description:
  */

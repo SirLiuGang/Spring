@@ -9,7 +9,7 @@ import javax.annotation.Resource;
 
 /**
  * 用户信息 Service层
- * @Auther: 刘钢
+ * @author: 刘钢
  * @Date: 2019/3/3 17:39
  * @Description:
  */

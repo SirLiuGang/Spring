@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.concurrent.*;
 
 /**
- * @Auther: 刘钢
+ * @author: 刘钢
  * @Date: 2019/2/18 23:26
  * @Description: 线程池使用中的管理
  */

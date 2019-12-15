@@ -18,7 +18,7 @@ import static org.junit.Assert.assertEquals;
 
 /**
  * 对Service层进行测试
- * @Auther: 刘钢
+ * @author: 刘钢
  * @Date: 2019/3/3 21:27
  * @Description:
  */

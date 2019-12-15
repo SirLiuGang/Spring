@@ -2,7 +2,7 @@ package com.cn.lg.web.exception;
 
 /**
  * 自定义异常
- * @Auther: 刘钢
+ * @author: 刘钢
  * @Date: 2019/3/25 0:26
  * @Description:
  */

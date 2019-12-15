@@ -4,7 +4,7 @@ import java.util.*;
 
 /**
  * 对List和Map进行初始化
- * @Auther: 刘钢
+ * @author: 刘钢
  * @Date: 2019/3/4 23:17
  * @Description:
  */

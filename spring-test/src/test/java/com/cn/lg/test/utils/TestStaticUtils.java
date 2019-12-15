@@ -16,7 +16,7 @@ import static org.junit.Assert.assertTrue;
 
 /**
  * 对静态方法进行mock
- * @Auther: 刘钢
+ * @author: 刘钢
  * @Date: 2019/3/3 0:13
  * @Description:
  */

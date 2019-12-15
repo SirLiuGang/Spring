@@ -2,7 +2,7 @@ package com.cn.lg.test.utils;
 
 /**
  * 包含私有方法，提供测试用例编写
- * @Auther: 刘钢
+ * @author: 刘钢
  * @Date: 2019/3/3 23:28
  * @Description:
  */

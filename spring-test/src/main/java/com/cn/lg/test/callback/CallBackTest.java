@@ -3,7 +3,7 @@ package com.cn.lg.test.callback;
 
 /**
  * 对回调函数的接口进行测试
- * @Auther: 刘钢
+ * @author: 刘钢
  * @Date: 2019/3/19 23:35
  * @Description:
  */

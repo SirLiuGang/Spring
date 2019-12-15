@@ -5,7 +5,7 @@ import java.util.Objects;
 
 /**
  * 用户实体类
- * @Auther: 刘钢
+ * @author: 刘钢
  * @Date: 2019/3/2 23:55
  * @Description:
  */

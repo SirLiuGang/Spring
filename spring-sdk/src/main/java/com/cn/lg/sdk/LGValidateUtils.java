@@ -4,7 +4,7 @@ import com.cn.lg.sdk.validate.Validate;
 
 /**
  * 校验工具类
- * @Auther: 刘钢
+ * @author: 刘钢
  * @Date: 2019/3/4 23:18
  * @Description:
  */

@@ -15,7 +15,7 @@ import org.powermock.modules.junit4.PowerMockRunner;
 
 /**
  * 对构造方法进行模拟
- * @Auther: 刘钢
+ * @author: 刘钢
  * @Date: 2019/3/3 23:06
  * @Description:
  */

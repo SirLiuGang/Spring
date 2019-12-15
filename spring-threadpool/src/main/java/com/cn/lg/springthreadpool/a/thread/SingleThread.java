@@ -4,7 +4,7 @@ import java.util.concurrent.Callable;
 import java.util.concurrent.FutureTask;
 
 /**
- * @Auther: 刘钢
+ * @author: 刘钢
  * @Date: 2019/2/16 23:23
  * @Description: 单线程的使用
  */

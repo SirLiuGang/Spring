@@ -3,7 +3,7 @@ package com.cn.lg.test.callback;
 /**
  * 计算方法执行时间（利用自定义的回调函数，都实现了execute方法，然后在testTime中进行调用execute方法，即可自动打印出执行时间）
  * 在这里调用传进来的方法中的函数，即为回调函数
- * @Auther: 刘钢
+ * @author: 刘钢
  * @Date: 2019/3/19 23:32
  * @Description:
  */

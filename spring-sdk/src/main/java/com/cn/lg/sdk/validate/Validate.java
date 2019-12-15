@@ -5,7 +5,7 @@ import org.apache.commons.lang3.StringUtils;
 
 /**
  * 校验类
- * @Auther: 刘钢
+ * @author: 刘钢
  * @Date: 2019/3/4 23:09
  * @Description:
  */

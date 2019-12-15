@@ -7,7 +7,7 @@ import java.util.Map;
 
 /**
  * 实例化工具类
- * @Auther: 刘钢
+ * @author: 刘钢
  * @Date: 2019/3/4 23:17
  * @Description:
  */

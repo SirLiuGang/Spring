@@ -4,7 +4,7 @@ import java.io.Serializable;
 
 /**
  * 给前端的返回结果封装
- * @Auther: 刘钢
+ * @author: 刘钢
  * @Date: 2019/3/24 23:43
  * @Description:
  */

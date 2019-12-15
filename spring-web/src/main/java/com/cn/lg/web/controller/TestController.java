@@ -13,7 +13,7 @@ import javax.annotation.Resource;
 
 /**
  * 测试用Controller
- * @Auther: 刘钢
+ * @author: 刘钢
  * @Date: 2019/3/24 23:37
  * @Description:
  */
